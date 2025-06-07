@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9ab0d1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgb(52, 113, 146);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 2em;
+  color: #9db9c8;
+  margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  background-color: #eee;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+/* Completed Items */
+.completed {
+  text-decoration: line-through;
+  color: darkblue;
+}
+
+/* Pending Items */
+.pending {
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  li {
+    font-size: 1em;
+  }
+}
+
